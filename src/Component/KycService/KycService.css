@@ -1,0 +1,60 @@
+/* Ajoutez ces styles à votre code existant */
+
+.kyc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kyc-title {
+  color: rgb(10, 119, 156);
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  width: 250px; /* Ajustez la largeur du logo selon vos besoins */
+  height: auto;
+}
+
+.kyc-form {
+  width: 600px; /* Ajustez la largeur du formulaire selon vos besoins */
+  background-color: #fff; /* Fond blanc */
+  padding: 20px;
+  border: 1px solid #ddd; /* Bordure légère */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(10, 119, 156); /* Ombre pour la profondeur */
+}
+
+.kyc-pair {
+  display: flex;
+  flex-direction: column; /* Modifier la direction de la colonne pour une disposition verticale */
+  margin-bottom: 20px; /* Espacement entre les paires */
+}
+
+.kyc-label {
+  color: rgb(10, 119, 156);
+  margin-bottom: 5px; /* Espacement sous l'étiquette */
+}
+
+.kyc-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px; /* Taille de police pour les champs de saisie */
+}
+
+.kyc-button {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Taille de police pour le bouton */
+}
+
+.kyc-button:hover {
+  background-color: rgb(10, 119, 156);
+}

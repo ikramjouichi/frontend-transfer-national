@@ -1,0 +1,129 @@
+.sirone {
+  margin: 10px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sirone img {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 250px;
+  height: auto;
+}
+
+.input{
+  height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.button{
+  cursor: pointer;
+    
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    color: white;
+    background: #1a2d5e;
+    border-radius: 50px;
+}
+
+h1 {
+  color: rgb(10, 119, 156);
+  text-align: center;
+}
+
+.flexcompo {
+  display: flex;
+}
+
+.sironeForm {
+  margin: auto;
+  margin-top: 50px;
+  border-style: none;
+  width: 300px;
+  border-radius: 7px;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .formTitle {
+    background-color: rgb(6, 82, 107);
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+  .label1,
+  .label2,
+  .buttonF {
+    margin-bottom: 18px;
+    border-radius: 5px;
+    border-style: none;
+  }
+
+  .buttonF {
+    background-color: rgb(6, 82, 107);
+    border: none;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+  }
+
+  .inputF input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(191, 187, 187);
+    border-radius: 5px;
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(6, 82, 107);
+  color: aliceblue;
+}
+
+h1 {
+  color: rgb(10, 119, 156);
+  text-align: center;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  
+}
+
+.button-group {
+  margin-left: 20px; /* Ajustez la marge entre la barre de recherche et les boutons selon vos besoins */
+}
+.flexcompo button {
+  margin-left: 10px;
+  margin-bottom: 10px; /* Ajustez la marge selon vos besoins */
+}
